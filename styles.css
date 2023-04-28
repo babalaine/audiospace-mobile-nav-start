@@ -269,18 +269,6 @@ footer .space { color:#bdd4de; }
 	border-bottom: none;
 	border-right: 1px solid #ca6a0c;
 }
-$('#mobilenav h2').click(function() {
-	$('#mainnav').slideToggle('slow');
-});
-	function showHideMenu(){
-			var viewportWidth = $(window).width();
-			if(viewportWidth > 600) {
-				$('#mainnav').show();
-			} else{
-				$('#mainnav').hide();
-			}
-	}
-	whowHideMenu();
 @media only screen and (min-width: 960px) {
 	
 	#page {
