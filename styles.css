@@ -244,7 +244,43 @@ footer .space { color:#bdd4de; }
 	}
 	
 }
-
+#mobilenav {
+	display: none;
+}
+#mainnav {
+	box-sizing: border-box;
+	position: static;
+	width: 100%;
+	margin-bottom: 20px;
+	border-top: none;
+	border-left: 1px solid #ca6a0c;
+}
+#mainnav ul {
+	display: flex;
+}
+#mainnav ul li {
+	flex: 1;
+}
+#mainnav ul li a {
+	width: 100%;
+	box-sizing: border-box;
+	padding: 0;
+	text-align: center;
+	border-bottom: none;
+	border-right: 1px solid #ca6a0c;
+}
+$('#mobilenav h2').click(function() {
+	$('#mainnav').slideToggle('slow');
+});
+	function showHideMenu(){
+			var viewportWidth = $(window).width();
+			if(viewportWidth > 600) {
+				$('#mainnav').show();
+			} else{
+				$('#mainnav').hide();
+			}
+	}
+	whowHideMenu();
 @media only screen and (min-width: 960px) {
 	
 	#page {
