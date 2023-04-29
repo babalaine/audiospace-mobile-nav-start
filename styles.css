@@ -1,4 +1,4 @@
-/********* CSS RESETS **********/
+                                                                                                                 /********* CSS RESETS **********/
 
 img {
 	max-width: 100%;
@@ -67,7 +67,7 @@ section{ padding: 30px 15px; }
 	background:#f69331;
 	color:#ebebeb;
 	font-weight:700;
-	font-size:36px;
+	font-size:36px; 
 	line-height:50px;
 	text-decoration:none;
 	text-transform:uppercase;
@@ -242,13 +242,6 @@ footer .space { color:#bdd4de; }
 	#top p, footer p {
 		font-size: 24px;
 	}
-}
-header h1, footer h1 {
-	font-size: 100px;
-}
-
-header h2 {
-	font-size: 36px;
 }
 #mobilenav {
 	display: none;
