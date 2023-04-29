@@ -1,7 +1,7 @@
 /********* CSS RESETS **********/
 
 img {
-	max-width:100%;
+	max-width: 100%;
 }
 
 h1, h2, h3, p, ul, ol {
@@ -224,7 +224,7 @@ footer .space { color:#bdd4de; }
 
 	header div {
 		flex: 1;
-		padding:15px;
+		padding: 15px;
 	}
 	
 	header h1 {
@@ -244,7 +244,7 @@ footer .space { color:#bdd4de; }
 	}
 }
 header h1, footer h1 {
-	font-size:100px;
+	font-size: 100px;
 }
 
 header h2 {
