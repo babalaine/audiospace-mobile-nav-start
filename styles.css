@@ -216,7 +216,7 @@ footer .space { color:#bdd4de; }
 @media only screen and (min-width: 600px) {
 	
 	.grid { grid-template-columns: 1fr 1fr 1fr 1fr; }
-	
+	}	
 	header{
 		display: flex;
 		padding-bottom: 0;
